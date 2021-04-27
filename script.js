@@ -6,6 +6,6 @@ const biciclette = [
     {nome:"crash", peso: 28 }
 ]
 
-const pesoMinore = (Math.min(peso))
+const pesoMinore = Math.min({peso} = biciclette)
 
-console.log(pesoMinore)
+console.log(pesoMinore);
